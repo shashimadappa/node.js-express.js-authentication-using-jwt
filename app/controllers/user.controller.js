@@ -1,5 +1,6 @@
 const signupService = require('../services/user.service');
 const settingsMsg = require('../msgcodes/msgcodes');
+const signupMsg = require('../msgcodes/msgcodes');
 
 // Create Register User
 const postInsertData = (req, res) => {
